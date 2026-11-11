@@ -14,7 +14,7 @@ using UnityEngine.Events;
 using Il2CppInterop.Runtime;
 using Il2CppTMPro;
 
-[assembly: MelonInfo(typeof(SceneTalk.Mod), "SceneTalk", "0.3.1", "claude")]
+[assembly: MelonInfo(typeof(SceneTalk.Mod), "SceneTalk", "0.4.0", "claude")]
 
 namespace SceneTalk
 {
