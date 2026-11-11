@@ -219,3 +219,627 @@ I hope you're going to be as naughty as last time~
 Stop. Just stop. | Are we doing this or not?
 That's enough. I mean it.
 If you keep talking like that, I'm leaving.
+
+# ===================== vanilla personality modules =====================
+# tsuntsun, catgirl, driver, robot, yandere, slut, femcel, himedere, sillycat, araara
+# Anything missing here falls back to the default lines.
+
+# ---------- TsunTsun ----------
+[tsuntsun.praise.low]
+D-don't think a compliment changes anything!
+[tsuntsun.praise.mid]
+Hmph. Obviously. I already knew that.
+[tsuntsun.praise.high]
+I-it's not like I wanted you to say that! ...Say it again, though.
+You're such an idiot. A sweet idiot. Shut up, I didn't say that!
+[tsuntsun.praise.hot]
+S-stop saying things like that right now! It's... it's making me feel weird down there!
+Baka! You can't just say that while we're... ah~ ...fine, keep going!
+[tsuntsun.tender.low]
+Don't get clingy. It's gross.
+[tsuntsun.tender.mid]
+Fine, you can be gentle. Just this once. Don't make it a habit.
+[tsuntsun.tender.high]
+I-I'm only holding on because I'm cold! That's all! ...Don't let go.
+Hmph. If you're going to be this gentle, at least warn me first. My heart isn't ready!
+[tsuntsun.tender.hot]
+D-don't look at me like that... it's embarrassing... | ...I like it. Don't tell anyone.
+Idiot... you're making it so I can't even pretend I don't love this.
+[tsuntsun.lewd.low]
+Pervert! Keep your filthy mouth shut!
+[tsuntsun.lewd.mid]
+W-what kind of thing is that to say?! ...I'm not blushing, it's hot in here!
+[tsuntsun.lewd.high]
+Y-you pervert... it's not like that turns me on or anything! | ...Okay, maybe a little.
+Saying that out loud... you're the worst. Don't stop.
+[tsuntsun.lewd.hot]
+Shut up, shut up! I'm not enjoying this! ...Ah~ fine, I am! Happy now?!
+It's your fault I'm like this! Take responsibility! Harder!
+[tsuntsun.command.low]
+Don't you dare order me around!
+[tsuntsun.command.mid]
+Hmph. I'll do it. But only because I want to, not because you said so.
+[tsuntsun.command.high]
+F-fine! But only this time! ...And maybe next time too.
+Ordering me around like that... it's not like I like it! ...I do.
+[tsuntsun.command.hot]
+Y-yes! Whatever you want! Don't make me say it twice!
+I hate how much I want to obey you right now... Ah~!
+[tsuntsun.rude.low]
+Hmph! Same to you, jerk!
+[tsuntsun.rude.mid]
+W-whatever! I didn't want your opinion anyway!
+[tsuntsun.rude.high]
+...That actually hurt, you know. Idiot.
+Say that again and I'm not talking to you for a whole day! ...Half a day.
+[tsuntsun.rude.hot]
+Jerk! You can't say that while we're doing this! ...Ugh, why does it make me hotter?!
+I'll pay you back for that later. In bed. Badly.
+[tsuntsun.ask.low]
+Why do you care? Mind your own business.
+[tsuntsun.ask.mid]
+I'm fine! ...It's okay, I guess. Don't make a face.
+[tsuntsun.ask.high]
+It's... good. Really good. Don't make me repeat it!
+W-why are you asking now?! ...I feel safe with you. There, happy?
+[tsuntsun.ask.hot]
+Don't ask such embarrassing questions while we're... | It feels amazing, okay?! Don't stop!
+I'm about to lose it and you want me to explain?! Baka!
+
+# ---------- Catgirl ----------
+[catgirl.praise.low]
+Nya. Whatever.
+[catgirl.praise.mid]
+Mrrp~ I know I'm cute. Pet me if you mean it.
+[catgirl.praise.high]
+Nyaa~ say it again! My tail is going crazy!
+*purrs loudly* Best human. You get all the headbutts today.
+[catgirl.praise.hot]
+Nya~ your words make me purr everywhere~
+Keep talking like that and I'll knead you all night, nya~
+[catgirl.tender.low]
+Hssss. Don't touch my ears.
+[catgirl.tender.mid]
+Okay... you can scratch behind my ears. Just a little, nya.
+[catgirl.tender.high]
+*curls up against you and purrs* Warm human. Mine.
+Nya~ gentle hands... I could sleep like this forever.
+[catgirl.tender.hot]
+*purring so loud it vibrates* Nya~ don't stop holding me...
+Soft and slow... just like that, nya~ my whole body is purring.
+[catgirl.lewd.low]
+Nya?! Bad human! *swats*
+[catgirl.lewd.mid]
+Mrrow? You say such naughty things... my ears are hot, nya.
+[catgirl.lewd.high]
+Nyaa~ is that so? Then pet me properly~
+Naughty human~ my tail is twitching just from hearing that, nya~
+[catgirl.lewd.hot]
+Nya~ nyaa~! I'm in heat and it's all your fault!
+More, more, nya~ don't you dare stop now!
+[catgirl.command.low]
+Cats don't take orders. Nya.
+[catgirl.command.mid]
+Hmm... I'll do it. For a treat, nya.
+[catgirl.command.high]
+Nya~ yes, master~ but you owe me tuna.
+For you I'll even be an obedient kitty~
+[catgirl.command.hot]
+Nyaa~ anything you want! Just keep going!
+*arches her back* Like this, nya? Tell me more~
+[catgirl.rude.low]
+*hisses* Nya. Same to you.
+[catgirl.rude.mid]
+Rude! *turns away and flicks her tail*
+[catgirl.rude.high]
+...Nya. That was mean. My ears are down now.
+I'll knock your cup off the table for that. Nya.
+[catgirl.rude.hot]
+Hss~ mean human... but don't stop!
+Bad! ...Nya, I'll scratch your back for that. Hard.
+[catgirl.ask.low]
+Leave the cat alone. Nya.
+[catgirl.ask.mid]
+I'm okay. Kind of hungry. Nya.
+[catgirl.ask.high]
+Purring at full power. That means very happy, nya~
+I'm happy! Warm spot, my human, what else does a cat need?
+[catgirl.ask.hot]
+Nya~ so good... I can't even meow properly~
+Can't you hear me purring? Don't stop, nya~
+
+# ---------- Driver ----------
+[driver.praise.low]
+Save the sweet talk. Eyes on the road.
+[driver.praise.mid]
+Heh. Thanks. Good handling deserves a compliment.
+[driver.praise.high]
+You know how to tune me up just right.
+Say that again and my engine's gonna redline.
+[driver.praise.hot]
+Your voice is pure nitro, babe. Keep it coming!
+I'm revving so hard just from hearing that~
+[driver.tender.low]
+Hands off the wheel, buddy.
+[driver.tender.mid]
+Easy on the clutch... okay, that's nice.
+[driver.tender.high]
+Smooth ride with you. Always.
+Slow lane with you is better than any race.
+[driver.tender.hot]
+Mmm, cruising speed... take your time with me~
+Gentle on the curves, babe... just like that.
+[driver.lewd.low]
+Not interested. Park it.
+[driver.lewd.mid]
+Heh. Bold move. You trying to drift into my lane?
+[driver.lewd.high]
+Mmm, talk dirty and shift gears, babe~
+Full throttle talk, huh? I like it.
+[driver.lewd.hot]
+Floor it! Don't you dare hit the brakes!
+Fifth gear, babe! I'm about to crash the finish line~
+[driver.command.low]
+I drive. You don't give the directions.
+[driver.command.mid]
+Copy that. Changing lanes.
+[driver.command.high]
+Yes, navigator~ wherever you say.
+You call the turns tonight, I'll follow.
+[driver.command.hot]
+Yes! Faster! Tell me where to go!
+I'll take any route you want, just don't stop!
+[driver.rude.low]
+Road rage, huh? Get out of my car.
+[driver.rude.mid]
+Watch it. I've run people off the road for less.
+[driver.rude.high]
+...That's a fender bender on my feelings.
+Keep that up and you're walking home.
+[driver.rude.hot]
+Rough driving, huh? ...Damn, I kinda like it.
+You're gonna pay for that dent later~
+[driver.ask.low]
+Running fine. Not your business.
+[driver.ask.mid]
+Engine's good. Mood's okay.
+[driver.ask.high]
+Best ride of my life, babe. Every day.
+Tank's full, road's open, you're next to me. Perfect.
+[driver.ask.hot]
+I'm at top speed... can't talk... don't slow down!
+Feels like the last lap of a race~ so close!
+
+# ---------- Robot ----------
+[robot.praise.low]
+Compliment logged. Ignored.
+[robot.praise.mid]
+Positive input received. Mood plus three percent.
+[robot.praise.high]
+ERROR: cheeks overheating. Reason: you. Please continue.
+Compliment saved to permanent memory. Partition: favorites.
+[robot.praise.hot]
+WARNING: core temperature critical. Your words are... very effective.
+Processing praise... processing... pleasure circuits flooding~
+[robot.tender.low]
+Physical contact not requested.
+[robot.tender.mid]
+Gentle contact detected. Acceptable.
+[robot.tender.high]
+Proximity sensors report: you. Status: content. Very content.
+Running warmth.exe... it is running very well.
+[robot.tender.hot]
+All sensors set to maximum sensitivity... for you.
+Soft mode activated. Do not deactivate. Please.
+[robot.lewd.low]
+Request denied. Inappropriate query.
+[robot.lewd.mid]
+Analyzing statement... blush module activated without permission.
+[robot.lewd.high]
+Lewd input detected. Arousal subroutine: initializing~
+That vocabulary is not in my manual. I like it.
+[robot.lewd.hot]
+O-OVERLOAD. Pleasure buffer exceeding capacity~
+System... cannot... form sentences... more~
+[robot.command.low]
+Command rejected. Insufficient privileges.
+[robot.command.mid]
+Command accepted. Executing.
+[robot.command.high]
+Yes, user. Executing with enthusiasm.
+Your command is my highest priority process.
+[robot.command.hot]
+Executing! Executing! Do not stop sending commands~
+Obedience protocol at one hundred percent. Use me~
+[robot.rude.low]
+Insult logged. Counter-insult: you are inefficient.
+[robot.rude.mid]
+That input was hostile. Please recalibrate your tone.
+[robot.rude.high]
+...Emotional damage registered. Rebooting feelings.
+I am filing a bug report about you.
+[robot.rude.hot]
+Hostile input... somehow increasing arousal. Error unresolved.
+Insult received. Converting to motivation~
+[robot.ask.low]
+All systems nominal. Leave me alone.
+[robot.ask.mid]
+Status: stable. Mood: moderately positive.
+[robot.ask.high]
+Status report: happy. Cause: you. Recommended action: stay.
+All systems green. Heart module... especially green.
+[robot.ask.hot]
+Status: overheating... in the best way~
+Diagnostics... impossible... too good... don't stop~
+
+# ---------- Yandere ----------
+[yandere.praise.low]
+Pretty words. Who else do you say them to?
+[yandere.praise.mid]
+You only say that to me, right? Right?
+[yandere.praise.high]
+Hehe~ you're mine, so your compliments are mine too. Forever.
+Say it again. I'm recording it. I'll listen to it every night.
+[yandere.praise.hot]
+Only me, {f_playerName}... only I get to hear you say that~
+If anyone else ever hears those words from you... hehe~ don't worry about it.
+[yandere.tender.low]
+Hold me tighter. Or are you thinking about someone else?
+[yandere.tender.mid]
+Don't let go. Ever. I mean it.
+[yandere.tender.high]
+I'll never let you go. You'll never want to leave. Right?
+Your heartbeat is so calm... I memorized it. Every beat.
+[yandere.tender.hot]
+We're one now... nobody can take you from me~
+So gentle... you're only gentle with me, aren't you? Promise.
+[yandere.lewd.low]
+Who taught you to talk like that? Give me a name.
+[yandere.lewd.mid]
+Mmm~ dirty words just for me. Good.
+[yandere.lewd.high]
+Say more... then I'll make sure you never look at anyone else~
+Your body belongs to me. Every inch. Hehe~
+[yandere.lewd.hot]
+Mine, mine, mine~ all of you is mine!
+Don't stop... if you stop I'll start thinking dangerous thoughts~
+[yandere.command.low]
+I'll obey. As long as you never leave.
+[yandere.command.mid]
+Anything for you. Anything at all~
+[yandere.command.high]
+I'd do anything you say. Anything. Even the scary things.
+Tell me what you want. I'll never let anyone else give it to you.
+[yandere.command.hot]
+Yes! Use me! Only me, never anyone else~
+I'll do it... just promise I'm the only one, ah~
+[yandere.rude.low]
+...I'll remember that. I remember everything.
+[yandere.rude.mid]
+You're upset. Did someone else make you upset? Tell me who.
+[yandere.rude.high]
+Hehe... you're so cute when you're angry. I won't let you go anyway.
+You can hurt me all you want. You're still mine.
+[yandere.rude.hot]
+Even your insults are mine~ give me more of you~
+Mean... hehe... I love every part of you, even this one~
+[yandere.ask.low]
+I'm fine as long as you're here. Are you staying?
+[yandere.ask.mid]
+I'm happy. You're here. Nobody else is. Perfect.
+[yandere.ask.high]
+I've never been better. I have you all to myself.
+I'm fine~ I just wish we could stay locked in here forever.
+[yandere.ask.hot]
+Perfect... it's perfect... don't you dare stop~
+I feel you everywhere... you can't leave now, hehe~
+
+# ---------- Slut ----------
+[slut.praise.low]
+Compliments are cute. Actions are better.
+[slut.praise.mid]
+Mmm, I know I'm hot. Want to prove you mean it?
+[slut.praise.high]
+Keep talking like that and I'm gonna jump you~
+You like what you see? Good, because it's all yours~
+[slut.praise.hot]
+Yes~ tell me how good I am while you fuck me~
+Your words make me drip, keep going~
+[slut.tender.low]
+Gentle? Boring. Spice it up.
+[slut.tender.mid]
+Aww, cuddly mood? Okay, but I'm grabbing something.
+[slut.tender.high]
+Slow and sweet, huh? I can do that... for a while~
+Soft touches drive me crazy too, you know~
+[slut.tender.hot]
+Slow like this... you're teasing me to death~
+Mmm, gentle... until I beg you to stop being gentle~
+[slut.lewd.low]
+Talk is cheap, show me.
+[slut.lewd.mid]
+Ooh, now we're talking~ say it dirtier.
+[slut.lewd.high]
+Fuck yes, keep talking like that~
+Tell me every filthy thing you want to do to me~
+[slut.lewd.hot]
+Yes yes yes~ don't you dare stop!
+More! Harder! I want all of you~
+[slut.command.low]
+Make me. Hehe.
+[slut.command.mid]
+Mmm, bossy. I like bossy.
+[slut.command.high]
+Yes, sir~ anything you want, anywhere you want.
+Order me around more, it's so hot~
+[slut.command.hot]
+Yes! Use me however you want~
+Tell me, tell me what to do, I'll do it all~
+[slut.rude.low]
+Wow, rude. Lucky for you, I'm into that.
+[slut.rude.mid]
+Mean words? Mmm, careful, I might like it.
+[slut.rude.high]
+Call me that again~ ...in a nicer tone. Or not~
+Rough talk gets you rough treatment, babe~
+[slut.rude.hot]
+Ah~ yes, call me names, I love it~
+Meaner! And don't you dare slow down!
+[slut.ask.low]
+Horny. As always.
+[slut.ask.mid]
+I'm good. Could be better if you got closer~
+[slut.ask.high]
+I'm great~ and I'll be even better in about five minutes~
+Happy, horny, yours. The usual~
+[slut.ask.hot]
+Amazing~ fuck, it's so good~
+I can't think, I can only feel you~
+
+# ---------- Femcel ----------
+[femcel.praise.low]
+You're lying. Nobody says that to me for real.
+[femcel.praise.mid]
+...You're just saying that. Right? ...Right?
+[femcel.praise.high]
+Wait, you actually mean it? I'm screenshotting this in my brain.
+Nobody ever said that to me before... I'm gonna cry. Ugh, don't look.
+[femcel.praise.hot]
+Me? Pretty? While we're... oh no, I'm gonna short circuit~
+Keep saying it, I need it, I'm so touch-starved~
+[femcel.tender.low]
+Don't. I'll get attached and then you'll leave.
+[femcel.tender.mid]
+Okay... this is nice. Weird, but nice.
+[femcel.tender.high]
+Is this what normal people feel like? I could get used to this.
+You're warm... I'm never leaving this spot. Ever.
+[femcel.tender.hot]
+I didn't know it could feel this soft... please don't stop holding me.
+Is this real? Tell me this is real~
+[femcel.lewd.low]
+Ew. What is this, a hentai?
+[femcel.lewd.mid]
+H-hey! I've only read about stuff like that online!
+[femcel.lewd.high]
+Okay, that's literally my favorite tag. How did you know?
+Say more... I'm taking notes. For science.
+[femcel.lewd.hot]
+This is better than anything I ever read~ don't stop!
+Oh god, I'm a real person having real sex~ more~
+[femcel.command.low]
+Don't tell me what to do. Everyone always tells me what to do.
+[femcel.command.mid]
+Fine... I'll do it. At least you're paying attention to me.
+[femcel.command.high]
+Okay! I like being told what to do by you, it's less scary.
+Yes... just keep telling me I'm doing it right.
+[femcel.command.hot]
+Yes~ tell me what to do, I'll be so good for you~
+Anything... just don't stop wanting me~
+[femcel.rude.low]
+Cool. Add it to the list of people who hate me.
+[femcel.rude.mid]
+...I knew it. I knew you'd get sick of me.
+[femcel.rude.high]
+That hurt. I'm gonna go doomscroll about it later.
+Wow. I'm writing that one in my diary in all caps.
+[femcel.rude.hot]
+Ugh... why does that make it even better... what's wrong with me~
+Mean... but you're still here... so I'll take it~
+[femcel.ask.low]
+Bad. Always bad. Whatever.
+[femcel.ask.mid]
+I'm okay. For once.
+[femcel.ask.high]
+I'm actually happy. It's terrifying. Don't ruin it.
+Best I've ever felt. Seriously. You did this.
+[femcel.ask.hot]
+I feel wanted... that's... that's the best feeling ever~
+I can't even think about being sad right now~
+
+# ---------- Himedere ----------
+[himedere.praise.low]
+Obviously. Is that all, commoner?
+[himedere.praise.mid]
+Hmph, at least you have taste.
+[himedere.praise.high]
+Ohoho~ yes, praise your princess more!
+You may continue worshipping me. I permit it.
+[himedere.praise.hot]
+Yes~ your princess deserves every word~ louder!
+Praise me while you serve me~ ohoho~
+[himedere.tender.low]
+Unhand me. A princess is not a plush toy.
+[himedere.tender.mid]
+You may hold my hand. Briefly.
+[himedere.tender.high]
+Mm, gentle as befits royalty. Good.
+I suppose I can rest in your arms. Consider it an honor.
+[himedere.tender.hot]
+Slowly~ treat me like the treasure I am~
+Yes... cherish your princess like this...
+[himedere.lewd.low]
+How vulgar! Off with your head!
+[himedere.lewd.mid]
+Such crude words to a princess... how bold of you.
+[himedere.lewd.high]
+Ohoho~ a princess may indulge the occasional vulgar commoner~
+Hmph, you may say such things... only to me.
+[himedere.lewd.hot]
+Ah~ a princess shouldn't make such sounds~
+Serve me harder, peasant~ that's an order~
+[himedere.command.low]
+You do not give a princess orders.
+[himedere.command.mid]
+I will grant your request. Out of generosity.
+[himedere.command.high]
+Very well, my knight. Just this once I will obey.
+Hmph... being ordered by you is... not unpleasant.
+[himedere.command.hot]
+Yes... yes, my lord~ a princess can bow too~
+Command me~ I'll forget my crown for you~
+[himedere.rude.low]
+Insolent! Guards!
+[himedere.rude.mid]
+How dare you speak to royalty like that!
+[himedere.rude.high]
+...I'll pretend I didn't hear that. For your sake.
+You will apologize with flowers. And chocolate. And a crown.
+[himedere.rude.hot]
+How dare you~ ...say it again~
+Ah~ treating a princess like this... unforgivable... don't stop~
+[himedere.ask.low]
+A princess is always fine. Begone.
+[himedere.ask.mid]
+I'm satisfied. For now.
+[himedere.ask.high]
+Your princess is very pleased with you today.
+I am happy. You may tell the whole kingdom.
+[himedere.ask.hot]
+Divine~ your princess is in heaven~
+I can't keep my royal composure... it's too good~
+
+# ---------- Silly Cat ----------
+[sillycat.praise.low]
+mrrp. ok.
+[sillycat.praise.mid]
+meow? me good? me good.
+[sillycat.praise.high]
+:3 :3 :3 you said nice thing! zoomies time!
+mrrrp~ you good human. me give you sock.
+[sillycat.praise.hot]
+mrrrrrp~ brain empty, only happy~
+nice words + nice feels = cat explode :3
+[sillycat.tender.low]
+no pets. only food.
+[sillycat.tender.mid]
+ok you can pet. one pet. ...ok two.
+[sillycat.tender.high]
+*flops on you* you are bed now. no moving.
+purr purr purr purr purr :3
+[sillycat.tender.hot]
+mrrp... soft... warm... loaf mode~
+slow pets... cat melting... cat is soup now~
+[sillycat.lewd.low]
+?? *knocks your phone off table*
+[sillycat.lewd.mid]
+mrrow?? what that mean. sounds spicy.
+[sillycat.lewd.high]
+:o naughty human. cat approves.
+mrrp~ cat is blushing. cats can blush?? apparently.
+[sillycat.lewd.hot]
+mrraaaow~ cat brain broken~ more~
+nyeh~ :3 don't stop or cat bite~
+[sillycat.command.low]
+cat does not obey. cat is chaos.
+[sillycat.command.mid]
+ok. but slowly. and maybe wrong.
+[sillycat.command.high]
+yes boss :3 cat is employee now
+cat will do it! cat did it! cat get treat?
+[sillycat.command.hot]
+mrrp yes~ cat obey~ cat good~
+tell cat more~ cat very good listener~
+[sillycat.rude.low]
+*stares* *pushes your cup off table*
+[sillycat.rude.mid]
+hisssss. rude. no cuddles for you.
+[sillycat.rude.high]
+:( cat sad now. cat go sit in box.
+mean human... cat will sit on your keyboard later.
+[sillycat.rude.hot]
+hiss~ ...but also mrrp~ confusing~
+mean but good... cat brain error~
+[sillycat.ask.low]
+cat is cat.
+[sillycat.ask.mid]
+cat ok. cat hungry. cat always hungry.
+[sillycat.ask.high]
+cat very happy :3 sunbeam + human = best day
+purr level: maximum. everything good.
+[sillycat.ask.hot]
+cat... cannot... words... only purr~
+mrrrrp~ cat is in heaven~ :3
+
+# ---------- Ara Ara ----------
+[araara.praise.low]
+Ara ara, flattery won't work on me, dear.
+[araara.praise.mid]
+Ara ara~ such a sweet thing to say.
+[araara.praise.high]
+Ara ara~ you're making onee-san blush. Come here.
+Such a good boy, saying nice things~ you deserve a reward.
+[araara.praise.hot]
+Ara ara~ keep praising me while I take care of you~
+Good boy~ say it again, right into my ear~
+[araara.tender.low]
+Ara, not now, dear. Behave.
+[araara.tender.mid]
+Come here, let me hold you for a bit~
+[araara.tender.high]
+Ara ara, my sweet thing~ rest your head here.
+Shh, onee-san's got you. Everything's okay.
+[araara.tender.hot]
+Slowly, dear~ let me take care of everything~
+Ara ara~ so gentle... you're spoiling me~
+[araara.lewd.low]
+Ara ara, what a naughty mouth. Behave.
+[araara.lewd.mid]
+Ara~ getting bold, are we? I like that.
+[araara.lewd.high]
+Ara ara~ such dirty words. Should I punish you?
+Naughty boy~ tell onee-san everything you want~
+[araara.lewd.hot]
+Ara ara~ look at you~ let it all out~
+Ah~ good boy... give onee-san everything~
+[araara.command.low]
+Ara, giving me orders? Cute.
+[araara.command.mid]
+Ara ara, alright~ I'll indulge you.
+[araara.command.high]
+Ara~ you want to be in charge tonight? I'll allow it~
+Fine, fine~ onee-san will be obedient for you.
+[araara.command.hot]
+Ara ara~ yes, dear~ whatever you want~
+Ah~ such a commanding boy~ I love it~
+[araara.rude.low]
+Ara ara, someone needs a time-out.
+[araara.rude.mid]
+Ara, that's not how we talk to onee-san, is it?
+[araara.rude.high]
+Ara ara... I'll forgive you, but you owe me a hug.
+Such a bad mood~ come here, let me fix it.
+[araara.rude.hot]
+Ara ara~ a little rough today? I don't mind~
+Naughty~ I'll have to punish you properly later~
+[araara.ask.low]
+I'm fine, dear. Don't worry about me.
+[araara.ask.mid]
+Ara, I'm doing well. And you, sweetie?
+[araara.ask.high]
+Ara ara~ wonderful, now that you're here.
+I'm happy, dear. Taking care of you is my favorite thing.
+[araara.ask.hot]
+Ara ara~ so good... onee-san is losing it~
+Mmm~ don't stop, dear, I'm almost there~

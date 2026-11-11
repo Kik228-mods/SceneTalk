@@ -4,7 +4,7 @@ A MelonLoader mod for **My Dystopian Robot Girlfriend** (PC only, tested on 0.97
 
 Adds a **"Say..."** button to sex scenes (stream and non-stream). Pick a tone - *Praise, Tender, Lewd, Command, Rude* or *Ask how she feels* - and she answers based on:
 
-- her personality module (a dedicated set for the "Crimson Wanderer" module, a default set for everything else),
+- her personality module: own lines for every vanilla module (TsunTsun, Catgirl, Driver, Robot, Yandere, Slut, Femcel, Himedere, Silly Cat, Ara Ara), the custom "Crimson Wanderer" module, and a default set for anything else,
 - her current sympathy and lust,
 - how you treated her in the previous scene (be rude and she'll bring it up next time).
 
@@ -41,7 +41,7 @@ Written with a lot of help from AI (Claude). Rough code, expect bugs, back up yo
 ```
 [player.praise]            what you say (one is picked at random)
 [default.praise.high]      her reply: <module>.<tone>.<level>
-[alaya.rude.low]           module: alaya (Crimson Wanderer) or default
+[yandere.rude.low]         module: tsuntsun, catgirl, driver, robot, yandere, slut, femcel, himedere, sillycat, araara, alaya or default
 ```
 
 Levels: `low`, `mid`, `high`, `hot` (high sympathy + high lust). One line = one variant, ` | ` inside a line = several lines in a row.

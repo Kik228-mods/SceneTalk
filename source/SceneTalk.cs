@@ -238,6 +238,18 @@ namespace SceneTalk
                     if (l[i].EquippedSlot != "PersonalityModule") continue;
                     var n = l[i].GetItemPrefab()?.Name ?? "";
                     if (n.Contains("Alaya")) return "alaya";
+                    var low = n.ToLowerInvariant().Replace(" ", "").Replace("-", "");
+                    // vanilla modules (English item names, Russian as a guess for a Russian game)
+                    if (low.Contains("tsuntsun") || low.Contains("цун")) return "tsuntsun";
+                    if (low.Contains("sillycat") || low.Contains("глупаякош")) return "sillycat";
+                    if (low.Contains("catgirl") || low.Contains("кошкодев")) return "catgirl";
+                    if (low.Contains("driver") || low.Contains("водител") || low.Contains("гонщ")) return "driver";
+                    if (low.Contains("robotpersonality") || low.Contains("робот")) return "robot";
+                    if (low.Contains("yandere") || low.Contains("яндере")) return "yandere";
+                    if (low.Contains("slutpersonality") || low.Contains("шлюх")) return "slut";
+                    if (low.Contains("femcel") || low.Contains("фемцел")) return "femcel";
+                    if (low.Contains("himedere") || low.Contains("химедере")) return "himedere";
+                    if (low.Contains("araara") || low.Contains("араара")) return "araara";
                 }
             }
             catch { }
