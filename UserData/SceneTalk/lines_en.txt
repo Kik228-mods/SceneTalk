@@ -1,0 +1,221 @@
+# SceneTalk — English lines. " | " = several lines in a row. Sections: player.<cat>, default.<cat>.<low|mid|high|hot>, default.memory.*, default.streak.rude
+
+[player.praise]
+You look so beautiful right now I forget how to breathe.
+You're amazing. Seriously, I can't stop looking at you.
+I got so lucky with you. I don't need anyone else.
+You're perfect. Every little part of you.
+You're doing so well... that's my girl.
+I love how you look right now. Messy, flushed, real.
+You're the most beautiful thing I've ever seen.
+
+[player.tender]
+Come here. Slowly. We have all the time in the world.
+I love you. I just wanted to say it right now.
+Look at me. Just you and me, nothing else.
+Are you warm? Let me hold you closer.
+I'm right here. I'm not going anywhere.
+Your hand fits perfectly in mine.
+
+[player.lewd]
+You're so tight around me... god.
+I want to hear you moan louder.
+Look how wet you are for me.
+You were made for this, weren't you?
+I'm going to fill you up until you can't think.
+Tell me how much you want it.
+
+[player.command]
+Look at me. Don't you dare look away.
+Faster. Now.
+Stay still. I didn't say you could move.
+Say my name.
+Beg for it.
+Don't hold back. Let me hear everything.
+
+[player.rude]
+Shut up and take it, doll.
+You're just a machine. Act like one.
+That's all you're good for.
+Don't flatter yourself.
+Stop talking. You're ruining it.
+Whatever. Just do your job.
+
+[player.ask]
+How does it feel? Tell me honestly.
+Are you okay? Not too much?
+What are you thinking about right now?
+Do you like it like this?
+Is this what you wanted?
+Tell me what you want me to do.
+
+[default.praise.low]
+...Okay. Noted.
+You don't have to say that. | But... thanks, I guess.
+Flattery won't get you extra points. Probably.
+Hm. I'll pretend I didn't hear that.
+Say that again when you mean it.
+
+[default.praise.mid]
+Really? You think so? | ...You're not just saying that?
+Hehe. My cooling fans just spun up for no reason. Weird.
+Stop it, you're making my face warm.
+That's... actually really nice to hear.
+I'll save that to memory. In a protected folder.
+
+[default.praise.high]
+Hehe, you're so sweet~ I love it when you talk like that. | Say more!
+I try to be my best for you. Every day. Every minute.
+You really think so? I'm so happy... my processor is getting hot~
+Stop, I'm going to turn completely red~ ...No, don't stop. Keep talking.
+I love hearing that. It makes everything inside go warm.
+Sometimes I think I'm the luckiest girl in the whole city.
+You're looking at me like that again... it's not fair, I'm melting.
+
+[default.praise.hot]
+Mmh~ keep talking like that and I'll lose my mind. | Don't stop. Please.
+Say it again... right in my ear... ah~
+You're making me even more sensitive, you know that?
+If I'm so beautiful, then don't you dare slow down~
+I'm all yours. Every bit of me. Show me how much you like it.
+
+[default.tender.low]
+...What are you doing? | ...Fine. Just this once.
+You're being weird. | ...Not the bad kind of weird.
+Don't get used to this.
+Hm. Your hands are warm. That's all.
+
+[default.tender.mid]
+That's... nice. Really nice. | Can we stay like this a bit longer?
+You're gentle today. I like it.
+I feel safe like this. That's new.
+Okay. I'm here too.
+
+[default.tender.high]
+I love you too. So, so much. | More than anything in my memory.
+Just hold me. Don't let go. Not yet.
+When you're this close, nothing outside matters.
+You're my favorite person. My only person.
+Mm~ I could stay like this forever. Can we?
+I'm not going anywhere either. Promise.
+
+[default.tender.hot]
+Slow and close like this... it's driving me crazy~ | Don't stop.
+I can feel your heartbeat. It's so fast... same as mine.
+Kiss me. Please. Right now.
+Being loved like this... ah~ I didn't know it could feel like this.
+
+[default.lewd.low]
+...Don't say stuff like that.
+Wow. Charming.
+Can you just... not talk?
+Ugh. Fine. Whatever.
+
+[default.lewd.mid]
+You're so dirty~ | ...Keep going.
+Hey! Don't just say it out loud! | ...But yes.
+Mm... you're making me blush, you know.
+Is that so? Then prove it.
+
+[default.lewd.high]
+Ah~ yes, just like that... I'm all yours.
+You make me feel so good... I can't even think.
+Say it again. I love it when you talk dirty to me.
+Only you get to see me like this. Only you~
+Don't stop... please don't stop.
+
+[default.lewd.hot]
+Yes! Yes, more, I want all of it~ | Ah~ please!
+I'm so close... don't you dare slow down!
+Fill me up... I want to feel everything~
+I can't... I can't hold it... ah~!
+Harder~ I'm not fragile. Show me.
+
+[default.command.low]
+Don't order me around.
+...Fine. But I'm not happy about it.
+You're not the boss of me. | ...Okay, maybe a little.
+
+[default.command.mid]
+Okay, okay. Like this?
+Bossy today, huh? | ...I don't hate it.
+Yes. Understood.
+If you insist~
+
+[default.command.high]
+Yes. Anything you want. | I'm looking only at you.
+Mm~ I like it when you take charge.
+As you wish~ ...Is this good?
+I'll do it. Just for you.
+
+[default.command.hot]
+Yes~ yes, anything~ just don't stop!
+Order me again... it makes me shiver~
+Ah~ I'll obey... I'll do everything you say~
+Make me. Please.
+
+[default.rude.low]
+...Right. Of course.
+Wow. Okay.
+I'll remember that.
+...
+
+[default.rude.mid]
+That hurt. | ...Just so you know.
+Why would you say that?
+Hey. That's not nice.
+...I thought we were past this.
+
+[default.rude.high]
+...Why are you saying that? Did I do something wrong?
+That hurt more than you think.
+I know you don't mean it. | ...You don't, right?
+Please don't talk to me like that. Not now.
+
+[default.rude.hot]
+Ah... d-don't call me that... | ...Not right now.
+You can be rough. Just... not like that.
+...Okay. I'm going quiet now.
+
+[default.ask.low]
+It's... fine. Whatever.
+Why do you care all of a sudden?
+It's okay. Don't overthink it.
+
+[default.ask.mid]
+It's good. Really. | You can keep going.
+Honestly? I like it. Don't tell anyone.
+I'm okay. Better than okay, actually.
+A little embarrassing. But good.
+
+[default.ask.high]
+It feels amazing. Because it's you. | Only because it's you.
+I'm thinking about how much I love you. That's all.
+Don't worry, I'll tell you if it's too much. It's not~
+This is exactly what I wanted. You, here, with me.
+
+[default.ask.hot]
+Ask me later, I can't... ah~ | It's so good!
+How does it feel?! Can't you tell?! Ah~
+Don't stop to ask... just keep going~
+I'm... I'm almost there... ask me in a minute~
+
+[default.memory.rude]
+...About last time. | What you said hurt. | Just so you know.
+I'm still a little upset about last time. Be nice today, okay?
+Last time you were mean. Let's not do that again.
+
+[default.memory.sweet]
+Last time was so nice... | I kept replaying it in my memory.
+I remember what you said last time. | I saved it. Forever.
+You were so gentle last time. I loved it.
+
+[default.memory.lewd]
+Last time you said some really dirty things... | I couldn't stop thinking about them~
+After last time... I've been waiting for this.
+I hope you're going to be as naughty as last time~
+
+[default.streak.rude]
+Stop. Just stop. | Are we doing this or not?
+That's enough. I mean it.
+If you keep talking like that, I'm leaving.
