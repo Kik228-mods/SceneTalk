@@ -19,6 +19,7 @@
     <Reference Include="Il2CppInterop.Common"><HintPath>$(GameDir)MelonLoader\net6\Il2CppInterop.Common.dll</HintPath><Private>false</Private></Reference>
     <Reference Include="Il2Cppmscorlib"><HintPath>$(GameDir)MelonLoader\Il2CppAssemblies\Il2Cppmscorlib.dll</HintPath><Private>false</Private></Reference>
     <Reference Include="UnityEngine.CoreModule"><HintPath>$(GameDir)MelonLoader\Il2CppAssemblies\UnityEngine.CoreModule.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="Il2CppFungus"><HintPath>$(GameDir)MelonLoader\Il2CppAssemblies\Il2CppFungus.dll</HintPath><Private>false</Private></Reference>
     <Reference Include="Il2CppGameAssembly"><HintPath>$(GameDir)MelonLoader\Il2CppAssemblies\Il2CppGameAssembly.dll</HintPath><Private>false</Private></Reference>
       <Reference Include="Il2CppIC.Utility.Runtime"><HintPath>$(GameDir)MelonLoader\Il2CppAssemblies\Il2CppIC.Utility.Runtime.dll</HintPath><Private>false</Private></Reference>
     <Reference Include="UnityEngine.UI"><HintPath>$(GameDir)MelonLoader\Il2CppAssemblies\UnityEngine.UI.dll</HintPath><Private>false</Private></Reference>

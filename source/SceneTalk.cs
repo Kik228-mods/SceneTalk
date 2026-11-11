@@ -108,6 +108,14 @@ namespace SceneTalk
                 foreach (var m in t.GetMethods(All).Where(m => m.Name == "Activate" && !m.IsAbstract))
                     try { HarmonyInstance.Patch(m, prefix: new HarmonyMethod(typeof(Mod).GetMethod(nameof(Guard)))); } catch (Exception e) { L("guard " + t.Name + ": " + e.Message); }
             }
+            foreach (var t in asm.GetTypes())
+            {
+                if (t.Name != "FrickStateButtonSource") continue;   // present in every sex scene; the blowjob/cowgirl sources share its list
+                var m = t.GetMethod("AddButtonsToList", BindingFlags.Public | BindingFlags.NonPublic | BindingFlags.Instance | BindingFlags.DeclaredOnly);
+                if (m == null) continue;
+                try { HarmonyInstance.Patch(m, postfix: new HarmonyMethod(typeof(Mod).GetMethod(nameof(AddOurButton)))); L("button source hooked: " + t.Name); }
+                catch (Exception e) { L("hook " + t.Name + ": " + e.Message); }
+            }
             LoadLines();
             L("ready, lines loaded: " + lines.Values.Sum(v => v.Count));
         }
@@ -137,6 +145,7 @@ namespace SceneTalk
             if (sessionOn && !inScene && (DateTime.Now - sceneEndedAt).TotalSeconds > 5) { sessionOn = false; SaveMemory(); }
             if (!inScene) { if (mainBtn != null && (DateTime.Now - sceneEndedAt).TotalSeconds > 0.6) DestroyButtons(); return; }
             if (DateTime.Now >= memoryAt) { memoryAt = DateTime.MaxValue; try { MemoryLine(); } catch (Exception e) { L("memory: " + e.Message); } }
+            if (NativeActive()) { if (mainBtn != null) DestroyButtons(); return; }
             try { Mirror(); } catch { }
             // cheap per-frame check; full scan every frame while the button is missing (pose change), otherwise once a second
             bool alive = false; try { alive = mainBtn != null && mainBtn.transform.parent != null && mainBtn.activeInHierarchy; } catch { }
@@ -255,11 +264,11 @@ namespace SceneTalk
             }
             catch { return "en"; }
         }
-        // LivelyLin (optional): shares Lin's mood; found by reflection, no hard dependency
+        // LivelyJun (optional): shares Lin's mood; found by reflection, no hard dependency
         static Type llApi; static bool llLooked;
         static Type LLApi()
         {
-            if (!llLooked) { llLooked = true; foreach (var a in AppDomain.CurrentDomain.GetAssemblies()) { Type t = null; try { t = a.GetType("LivelyLin.Api"); } catch { } if (t != null) { llApi = t; L("LivelyLin found: her mood is shared"); break; } } }
+            if (!llLooked) { llLooked = true; foreach (var a in AppDomain.CurrentDomain.GetAssemblies()) { Type t = null; try { t = a.GetType("LivelyJun.Api"); } catch { } if (t != null) { llApi = t; L("LivelyJun found: her mood is shared"); break; } } }
             return llApi;
         }
         static object LLGet(string p) { try { return LLApi()?.GetProperty(p)?.GetValue(null); } catch { return null; } }
@@ -516,6 +525,45 @@ namespace SceneTalk
         }
 
         // ---------- popup with options in the centre ----------
+
+        // ---------- the game's own UI: a real button in the scene button list + the game's choice menu ----------
+        static Il2Cpp.ButtonListButtonSource nativeSource; static DateTime nativeAt = DateTime.MinValue;
+        public static void AddOurButton(Il2Cpp.ButtonListButtonSource __instance, Il2Cpp.IModificationPeriodButtonList __0)
+        {
+            try
+            {
+                var w = __0.AddButton(1000, Il2Cpp.CommonButtonColorType.Normal);
+                w.SetText(SayLabel);
+                w.OnClick = DelegateSupport.ConvertDelegate<Il2CppSystem.Action>(new Action(() => { try { OpenGameMenu(); } catch (Exception e) { L("menu: " + e.Message); } }));
+                nativeSource = __instance; nativeAt = DateTime.Now;
+                DestroyButtons();
+            }
+            catch (Exception e) { L("native button: " + (e.InnerException?.Message ?? e.Message)); }
+        }
+        static bool NativeActive()
+        {
+            try { var l = nativeSource?.ConnectedButtonList; return l != null && l.gameObject.activeInHierarchy; } catch { return false; }
+        }
+        static void OpenGameMenu()
+        {
+            Il2CppFungus.MenuDialog md = null;
+            try { md = Il2CppFungus.MenuDialog.GetMenuDialog(); } catch { }
+            if (md == null) { OpenPopup(); return; }
+            md.Clear();
+            for (int i = 0; i < Cats.Length; i++)
+            {
+                int ci = i;
+                md.AddOption(new Il2CppFungus.MenuOption(CatNames[i], true, DelegateSupport.ConvertDelegate<Il2CppSystem.Action>(new Action(() => { try { Talk(ci); } catch (Exception e) { L("talk: " + e.Message); } }))));
+            }
+            md.AddOption(new Il2CppFungus.MenuOption(GameText("Interact_Nevermind") ?? (En ? "Nevermind" : "Ничего"), true, DelegateSupport.ConvertDelegate<Il2CppSystem.Action>(new Action(() => { }))));
+            md.SetActive(true);
+        }
+        static string GameText(string prop)
+        {
+            try { foreach (var t in asm.GetTypes()) { if (t.Name != "UI") continue; var p = t.GetProperty(prop, BindingFlags.Public | BindingFlags.NonPublic | BindingFlags.Static); if (p != null) { var v = p.GetValue(null) as string; return string.IsNullOrEmpty(v) ? null : v; } } } catch { }
+            return null;
+        }
+
         static void TogglePopup() { if (popup != null) ClosePopup(); else OpenPopup(); }
         static void ClosePopup()
         {

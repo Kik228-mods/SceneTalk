@@ -46,10 +46,6 @@ Written with a lot of help from AI (Claude). Rough code, expect bugs, back up yo
 
 Levels: `low`, `mid`, `high`, `hot` (high sympathy + high lust). One line = one variant, ` | ` inside a line = several lines in a row.
 
-## Works with LivelyLin
-
-If [LivelyLin](../../../LivelyLin) is installed too, how you talk in scenes changes her overall mood, and when she is upset she answers coldly even at max sympathy. Not required.
-
 ## Building from source
 
 `source\` has the C# code, project file and `build.bat`. Put the `source` folder inside the game folder (the project references `..\MelonLoader\...`) and run `build.bat` (needs the .NET 6+ SDK). The DLL is copied to `..\Mods`.
